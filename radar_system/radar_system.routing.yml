@@ -1,0 +1,9 @@
+radar.settings:
+  path: '/admin/config/radar'
+  defaults:
+    _form: '\Drupal\radar_system\Form\RadarSettingsForm'
+    _title: 'RadarSystem Settings'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE

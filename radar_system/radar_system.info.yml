@@ -1,0 +1,6 @@
+name: Radar System
+type: module
+description: 'Radar System'
+package: Custom
+version: VERSION
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,4 @@
+services:
+  radar.system.service:
+    class: Drupal\radar_system\RadarSystemService
+    arguments: ['@config.factory']
